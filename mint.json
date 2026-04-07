@@ -38,6 +38,7 @@
       "family": "Plus Jakarta Sans"
     }
   },
+  "hideBranding": true,
   "footerSocials": {
     "twitter": "https://twitter.com/instate_cc"
   }

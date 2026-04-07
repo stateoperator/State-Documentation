@@ -1,0 +1,36 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "STATE",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#9B6DFF",
+    "light": "#A78BFA",
+    "dark": "#7C3AED",
+    "background": {
+      "dark": "#080808"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "instate.cc",
+      "url": "https://instate.cc"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Launch App",
+    "url": "https://instate.cc"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["overview"]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/instate_cc"
+  }
+}

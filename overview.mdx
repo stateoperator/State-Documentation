@@ -1,0 +1,69 @@
+---
+title: "Overview"
+description: "STATE is a prediction market platform on Solana where every market is tied to a real-world news event."
+---
+
+## What is STATE?
+
+STATE is a prediction market platform built on Solana. Every market on STATE is backed by a real-world news event — discovered automatically from global news sources and turned into a tradeable token.
+
+Unlike traditional prediction markets, every bet you place is a token purchase on a bonding curve. This means markets have real price action, constant buy pressure, and winners receive token payouts they can sell.
+
+## How It Works
+
+<Steps>
+  <Step title="Events are discovered">
+    STATE's AI pipeline (ARK2) monitors 20+ global news sources around the clock. When a significant, binary-outcome event emerges — a rate decision, election result, geopolitical move — ARK2 generates a market for it automatically.
+  </Step>
+  <Step title="A token is launched">
+    Each event becomes a bonding curve token on Solana (e.g. `$FEDRATE`, `$BTCQ1`). The price rises with every buy — no liquidity pools, no order books.
+  </Step>
+  <Step title="You take a position">
+    Bet YES or NO on the outcome. Your bet buys tokens on the bonding curve and locks them in escrow. Normal trading continues alongside the prediction market.
+  </Step>
+  <Step title="Event resolves">
+    When the event resolves, winners receive the accumulated token pool proportional to their stake. Losers receive nothing. Winners can sell their tokens on the bonding curve for SOL.
+  </Step>
+</Steps>
+
+## Key Concepts
+
+<CardGroup cols={2}>
+  <Card title="Bonding Curve" icon="chart-line">
+    Every STATE market is powered by a synthetic bonding curve on Solana. Price is determined by supply — the more tokens bought, the higher the price.
+  </Card>
+  <Card title="ARK2 Pipeline" icon="robot">
+    STATE's AI engine continuously discovers news events, scores them for market viability, and generates titles, tickers, and resolution criteria automatically.
+  </Card>
+  <Card title="Oracle Resolution" icon="check-circle">
+    Markets resolve based on real-world outcomes verified by STATE's oracle. Resolution criteria are generated at market creation and locked in.
+  </Card>
+  <Card title="Creator Studio" icon="pen-to-square">
+    Anyone can launch their own event market. Set the question, define resolution criteria, and deploy — the bonding curve handles the rest.
+  </Card>
+</CardGroup>
+
+## Why STATE?
+
+<AccordionGroup>
+  <Accordion title="Every bet creates buy pressure">
+    On STATE, placing a bet and buying a token are the same action. This means prediction markets and token speculation reinforce each other — more bettors = higher token price = more speculation.
+  </Accordion>
+  <Accordion title="Real events, not synthetic ones">
+    Markets are sourced from real news — Reuters, AP, Bloomberg, and 17 other feeds. STATE doesn't create hypothetical events; it turns the news into markets.
+  </Accordion>
+  <Accordion title="Winners get tokens, not just SOL">
+    When you win, you receive the accumulated token pool. You decide when to sell. If the market narrative continues to grow after resolution, your payout grows too.
+  </Accordion>
+</AccordionGroup>
+
+## Get Started
+
+<CardGroup cols={2}>
+  <Card title="Launch the App" icon="arrow-up-right-from-square" href="https://instate.cc">
+    Connect your Phantom wallet and start trading on live STATE markets.
+  </Card>
+  <Card title="Create a Market" icon="plus" href="https://instate.cc/launch">
+    Launch your own event market in Creator Studio.
+  </Card>
+</CardGroup>

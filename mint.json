@@ -30,6 +30,14 @@
       "pages": ["overview"]
     }
   ],
+  "font": {
+    "headings": {
+      "family": "Plus Jakarta Sans"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans"
+    }
+  },
   "footerSocials": {
     "twitter": "https://twitter.com/instate_cc"
   }

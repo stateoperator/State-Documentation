@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "STATE",
   "logo": {
-    "dark": "/logo/state-documentation.svg",
-    "light": "/logo/state-documentation.svg"
+    "dark": "/logo/state-documentation.png",
+    "light": "/logo/state-documentation.png"
   },
   "favicon": "/favicon.png",
   "colors": {
